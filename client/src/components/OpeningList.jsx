@@ -5,7 +5,10 @@ class OpeningList extends React.Component{
 
   render(){
     return(
-        <Opening/>
+        <article className = "opening-list">
+          <Opening title="The Exception"></Opening>
+          <Opening title="Flatliners"></Opening>
+        </article>
       )
   }
 

@@ -4,7 +4,7 @@ class Opening extends React.Component{
 
   render(){
     return(
-        <p>Hello Again</p>
+        <p>{this.props.title}</p>
       )
   }
 

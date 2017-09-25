@@ -3,6 +3,8 @@ import OpeningList from './OpeningList';
 
 class OpeningMovies extends React.Component{
 
+
+
   render(){
     return(
       <section className="opening-movies">
