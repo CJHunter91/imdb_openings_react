@@ -3,11 +3,17 @@ import Opening from './Opening';
 
 class OpeningList extends React.Component{
 
+
+
   render(){
+
+    const openingNodes = this.props.data.map((opening, index) =>{
+      return <Opening title={opening.title} key={index}/>
+    })
+
     return(
         <article className = "opening-list">
-          <Opening title="The Exception"></Opening>
-          <Opening title="Flatliners"></Opening>
+          {openingNodes}
         </article>
       )
   }
